@@ -5,6 +5,7 @@ HEIGHT = 720
 TILESIZE = 8
 CHUNK_SIZE = 16
 FPS = 150
+NOISE_SCALE = 0.05
 INPUTS = {'space' : False,
           'escape': False, 
           'space' : False, 

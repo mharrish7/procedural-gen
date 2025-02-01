@@ -68,7 +68,7 @@ class Scene(State):
         for y in range(0, HEIGHT // self.tile_size):
             row = []
             for x in range(0, WIDTH // self.tile_size):
-                noise_val = noise.noise2(x * 0.05, y * 0.05)
+                noise_val = noise.noise2(x * NOISE_SCALE, y * NOISE_SCALE)
                 if noise_val < -0.2:
                     tile_type = 'water'
                 elif noise_val < 0.2:
